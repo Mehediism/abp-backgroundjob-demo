@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>AbpBackgroundJobDemo</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AbpBackgroundJobDemo.Application.Contracts\AbpBackgroundJobDemo.Application.Contracts.csproj" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="8.2.0" />
+  </ItemGroup>
+</Project>
