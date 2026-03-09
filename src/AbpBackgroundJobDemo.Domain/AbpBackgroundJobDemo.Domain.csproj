@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>AbpBackgroundJobDemo</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AbpBackgroundJobDemo.Domain.Shared\AbpBackgroundJobDemo.Domain.Shared.csproj" />
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="8.2.0" />
+  </ItemGroup>
+</Project>
